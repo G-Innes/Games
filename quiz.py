@@ -29,6 +29,7 @@ def quizGame():  #Main function for the quiz
         else:  # code to run if condition is false
             print('\nIncorrect!!!\n************\n')
 
-    print(f'You scored a total of: {score}!!!\nThank You For Playing!\n\n') #takes total score of answeered questions & displays in message to user
-
+    print(f'You scored a total of: {score}!') #takes total score of answeered questions & displays in message to user
+    print(f'Which is: {((score / 5) * 100)} %' )
+    print('Thank You For Playing!\n')
 start() #calls the first function after welcome message is displayed
