@@ -1,4 +1,4 @@
 # Games
-Collection of small Python games
+Collection of small Python games that play in the terminal
 ## Python Quiz program
-This is my first python program, it is a simple and easy python quiz to practice using: functions, variables, loops and if statememnts.
+This is my first python program, a number of simple games to practice: functions, variables, loops and if statememnts.
