@@ -61,9 +61,3 @@ def check_win():        # loops over each row, column & diagonal directions & ch
     return False
 
 main()
-
-#   Bugs:
-    #   1. Entering on full spaces should allow for another go. currently does not (Fix- swap if/else for while loop) *Fixed
-    #   2. board not printng on CPU win (Fix- added print_board to check_win conditional)
-    #   3. Draw shows as user win ()
-    #   4. usr cells 0,1 0,2 1,0 1,2 is giving user win when should not be (Fix- typo in 2nd diagonal conditional)
